@@ -1,0 +1,81 @@
+
+.reviewsRoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 75vh;
+    width: 100vw
+}
+
+.Title {
+    align-self: center;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 1%
+}
+
+.leaveReview {
+    background-color: black;
+    color: white;
+    width: 15%;
+    border-color: transparent;
+    align-self: center;
+    border-radius: 50px;
+    margin-top: 1%;
+    height: 7%
+}
+
+.reviewsContainer {
+    align-self: center;
+    width: 50%;
+    max-height: 50vh;
+    overflow: scroll;
+    padding: 20px
+}
+
+.reviewRoot {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3%;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.profilePicture {
+    height: 40px;
+    width: 40px
+}
+
+.topPart {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-basis: 20%
+}
+
+.userSection {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    flex-basis: 50%
+}
+
+.userName {
+    margin-left: 3%;
+    font-size: 16px
+}
+
+.rating {
+    flex-basis: 50%;
+    height: 10px;
+    justify-self: flex-end
+}
+
+.reviewText {
+    flex-basis: 80%;
+    line-height: 1.5
+}

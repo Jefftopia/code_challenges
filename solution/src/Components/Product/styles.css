@@ -20,18 +20,20 @@
     width: 100%
 }
 
-.addToCart, .backordered {
+.addToCart, .backordered, .reviewButton {
     color: white;
     border-color: transparent;
     border-radius: 5px;
     width: 40%;
-    height: 25%
+    height: 25%;
+    margin-right: 10%
 }
 
-.addToCart {
+.addToCart, .reviewButton {
     background-color: black;
 }
 
 .backordered {
     background-color: maroon
 }
+

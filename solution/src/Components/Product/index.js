@@ -14,6 +14,8 @@ import greyC from "../../assets/grey_c.jpg";
 
 import productDetails from '../../product_details.json';
 
+import { Link } from "react-router-dom";
+
 
 export default class Product extends Component {
 
@@ -42,7 +44,7 @@ export default class Product extends Component {
         } 
     }
 
-    // Unecessary method as in real life this would be an async api call
+    // Where the AJAX call would go for live data
     fetchProductDetails = () => {
         return productDetails;
     }
@@ -85,8 +87,14 @@ export default class Product extends Component {
                         <button className={isBackordered ? "backordered" : 'addToCart'} >
                             {isBackordered ? "Not Available" : "Add To Cart"}
                         </button>
+                        <Link to="/reviews" >
+                            <button className="reviewButton">
+                                Reviews
+                            </button>
+                        </Link> 
                     </div>
                 </div>
+                        
            </div>
         )
     }
