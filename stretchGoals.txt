@@ -1,0 +1,13 @@
+1) Each variant should just be referenced by its SKU code.
+
+2) They should be brought to a cart preview screen that shows the contents of their cart
+and asks them if they want to continue shopping or checkout the items they added.
+
+3) The UI should be very different on mobile, the wireframe is very desktop orientation specific.
+The product image should be a swipeable slideshow instead of clickable previews. 
+Then immediately under that slideshow should be the description, followed by the type selection with price.
+Then add to cart should be at the very bottom of the screen.
+
+4) In my product root class there is a skeleton function that just gets the json file from local storage.
+This could easily be replaced with an ajax call, and the render would have to be modified a little bit
+to render some sort of a loading animation while the ajax call is waiting for a response.
