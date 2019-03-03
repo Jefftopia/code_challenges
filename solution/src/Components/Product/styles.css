@@ -1,0 +1,37 @@
+
+.productRoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.leftHalf {
+    width: 75vw;
+}
+
+.rightHalf {
+    width: 27vw;
+    height:  75vh;
+}
+
+.bottomPart {
+    height: 25%;
+    width: 100%
+}
+
+.addToCart, .backordered {
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 40%;
+    height: 25%
+}
+
+.addToCart {
+    background-color: black;
+}
+
+.backordered {
+    background-color: maroon
+}

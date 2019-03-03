@@ -1,0 +1,39 @@
+
+.HeaderRoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 3vh;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+}
+
+.pup {
+    font-weight: 900;
+}
+
+.town {
+    font-weight: 100
+}
+
+.selected {
+    color: lightblue;
+    font-weight: 300;
+}
+
+.unselected {
+    margin-left: 1vw;
+    font-weight: 300;
+}
